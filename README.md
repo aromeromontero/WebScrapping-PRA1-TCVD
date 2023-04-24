@@ -1,5 +1,5 @@
 # ¿CUÁL VEMOS HOY? - PRA1 TCVD
-### Las 1000 mejores pel´ıculas de la historia del cine, según Filmaffinity 
+### Las 1000 mejores películas de la historia del cine, según Filmaffinity 
 Por Diana Celine Pérez y Ariadna Romero
 
 En este repositorio encontrarás:
