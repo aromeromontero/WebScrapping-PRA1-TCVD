@@ -7,8 +7,6 @@ En este repositorio encontrarás:
   -  Carpeta dataset -> en esta carpeta está el archivo .csv resultado de la spider
   -  MEMORIA - PRA1 - TYCVD - DIANA Y ARIADNA.pdf -> es el archivo dónde se encuentran las respuestas a la PRA1.
   -  LICENSE
-  -  Requeriments.txt -> archivo con las librerías necesarias para la correcta ejecución del código
 
 
 DOI de Zenodo del dataset -> 10.5281/zenodo.7860540
-Link al vídeo de explicación ->
