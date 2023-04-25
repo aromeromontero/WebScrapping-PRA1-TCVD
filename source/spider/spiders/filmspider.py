@@ -109,7 +109,7 @@ class FilmspiderSpider(scrapy.Spider):
                 
                 # Se extraen los links que llevan a las fichas de las películas
 
-                movie_links = response.xpath("//div[@class='mc-title']/a/@href").extract()  # recorre todos los links de la página de los que se extraerán los items
+                movie_links = response.xpath("//div[@class='mc-title']/a/@href").extract()  
 
                 # Realizamos un SeleniumRequest a la URl de inicio escogiendo un user-agent aleatorio y esta, a su vez, llama a la función parseitem
                 for link in movie_links:
