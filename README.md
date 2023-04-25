@@ -19,7 +19,7 @@ cargadores de elementos ~ = 1.1.0
 
 w3lib~=2.1.1
 
-
+selenium~=4.9.0
 
 
 
