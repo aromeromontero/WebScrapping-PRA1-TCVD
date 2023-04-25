@@ -4,6 +4,8 @@
 
 
 
+
+
 #  Librerías y versiones
 Scrapy~=2.8.0
 
@@ -16,17 +18,27 @@ cargadores de elementos ~ = 1.1.0
 w3lib~=2.1.1
 
 
+
+
+
 #  Ejecución
 Por tal de ejecutar el spider, es necesario situarse en el directorio de la carpeta y ejecutar el scrapy crawl.
+
 Ejemplo: C:\Users\diaro\PycharmProjects\filmaffinity\spider> scrapy crawl filmspider
+
+
 
 
 
 # Enlaces  _
 - Repositorio de Github -> https://github.com/aromeromontero/WebScrapping-PRA1-TCVD
+
 - Repositorio de Zenodo -> DOI: 10.5281/zenodo.7860540   
-                                                   -> ENLACE: https://zenodo.org/record/7860540#.ZEbyknZBy3A    
+                                                   -> ENLACE: https://zenodo.org/record/7860540#.ZEbyknZBy3A   
+                                                   
 - Enlace al vídeo en Google Drive -> https://drive.google.com/file/d/165rhk6UH4k8Cvk4LtxUaya53JwsQaacW/view?usp=sharing
+
+
 
 
 
