@@ -31,12 +31,12 @@ Ejemplo: C:\Users\diaro\PycharmProjects\filmaffinity\spider> scrapy crawl filmsp
 
 
 # Enlaces 
-- **Repositorio de Github** -> https://github.com/aromeromontero/WebScrapping-PRA1-TCVD
+- **Repositorio de Github** -> [GitHub Page]([https://pages.github.com/](https://github.com/aromeromontero/WebScrapping-PRA1-TCVD).
 
 - **Repositorio de Zenodo** -> DOI: 10.5281/zenodo.7860540   
-  - ENLACE: https://zenodo.org/record/7860540#.ZEbyknZBy3A   
+  - [Enlace Zenodo]([https://pages.github.com/](https://zenodo.org/record/7860540#.ZEbyknZBy3A ).  
                                                    
-- **Enlace al vídeo en Google Drive** -> https://drive.google.com/file/d/165rhk6UH4k8Cvk4LtxUaya53JwsQaacW/view?usp=sharing
+- **Enlace al vídeo en Google Drive** -> [Enlace Google Drive](https://drive.google.com/file/d/165rhk6UH4k8Cvk4LtxUaya53JwsQaacW/view?usp=sharing) 
 
 
 
@@ -47,3 +47,5 @@ Ejemplo: C:\Users\diaro\PycharmProjects\filmaffinity\spider> scrapy crawl filmsp
   - **Carpeta *dataset***-> en esta carpeta está el archivo .csv resultado de la spider
   - **MEMORIA - PRA1 - TYCVD - DIANA Y ARIADNA.pdf** -> es el archivo donde se encuentran las respuestas a la PRA1.
   - **LICENSE**
+
+This site was built using 
