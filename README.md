@@ -30,7 +30,7 @@ Ejemplo: C:\Users\diaro\PycharmProjects\filmaffinity\spider> scrapy crawl filmsp
 
 
 
-# Enlaces  _
+# Enlaces 
 - Repositorio de Github -> https://github.com/aromeromontero/WebScrapping-PRA1-TCVD
 
 - Repositorio de Zenodo -> DOI: 10.5281/zenodo.7860540   
@@ -42,7 +42,7 @@ Ejemplo: C:\Users\diaro\PycharmProjects\filmaffinity\spider> scrapy crawl filmsp
 
 
 
-# ÍNDICE
+# Índice
   - Carpeta *FilmSpider* -> en esta carpeta están los archivos necesarios para llevar a cabo el web scrapping.
   - Carpeta *dataset* -> en esta carpeta está el archivo .csv resultado de la spider
   - MEMORIA - PRA1 - TYCVD - DIANA Y ARIADNA.pdf -> es el archivo donde se encuentran las respuestas a la PRA1.
