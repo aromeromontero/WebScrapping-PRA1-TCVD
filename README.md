@@ -43,7 +43,7 @@ Ejemplo: C:\Users\diaro\PycharmProjects\filmaffinity\spider> scrapy crawl filmsp
 
 
 # Índice
-  - **Carpeta *source* ** -> en esta carpeta están los archivos necesarios para llevar a cabo el web scrapping.
-  - **Carpeta *dataset* **-> en esta carpeta está el archivo .csv resultado de la spider
+  - **Carpeta *source*** -> en esta carpeta están los archivos necesarios para llevar a cabo el web scrapping.
+  - **Carpeta *dataset***-> en esta carpeta está el archivo .csv resultado de la spider
   - **MEMORIA - PRA1 - TYCVD - DIANA Y ARIADNA.pdf** -> es el archivo donde se encuentran las respuestas a la PRA1.
   - **LICENSE**
