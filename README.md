@@ -9,7 +9,7 @@ Scrapy~=2.8.0
 
 elementos ~ = 0.6.5
 
-articuloadaptador~=0.8.0
+artículoadaptador~=0.8.0
 
 cargadores de elementos ~ = 1.1.0
 
@@ -17,7 +17,7 @@ w3lib~=2.1.1
 
 
 #  Ejecución
-scrapy rastreo filmpider.py
+scrapy crawl filmpider.py
 
 
 
@@ -30,7 +30,7 @@ scrapy rastreo filmpider.py
 
 
 # ÍNDICE
-  - Carpeta FilmSpider -> en esta carpeta están los archivos necesarios para llevar a cabo el web scrapping.
-  - Carpeta dataset -> en esta carpeta está el archivo .csv resultado de la spider
+  - Carpeta *FilmSpider* -> en esta carpeta están los archivos necesarios para llevar a cabo el web scrapping.
+  - Carpeta *dataset* -> en esta carpeta está el archivo .csv resultado de la spider
   - MEMORIA - PRA1 - TYCVD - DIANA Y ARIADNA.pdf -> es el archivo donde se encuentran las respuestas a la PRA1.
   - LICENSE
