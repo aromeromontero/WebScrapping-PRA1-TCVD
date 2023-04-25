@@ -17,7 +17,8 @@ w3lib~=2.1.1
 
 
 #  Ejecución
-scrapy crawl filmpider.py
+Por tal de ejecutar el spider, es necesario situarse en el directorio de la carpeta y ejecutar el scrapy crawl.
+Ejemplo: C:\Users\diaro\PycharmProjects\filmaffinity\spider> scrapy crawl filmspider
 
 
 
