@@ -1,8 +1,17 @@
 import random
+
+import time
+
 import scrapy
 
+from selenium import webdriver
+
+from scrapy.selector import Selector
+
 from ..items import SpiderItem
+
 from ..itemsloader import SpiderItemLoader
+
 from scrapy_selenium import SeleniumRequest
 
 
@@ -69,24 +78,46 @@ class FilmspiderSpider(scrapy.Spider):
 
     allowed_domains = ["filmaffinity.com/es"]   # Asignamos el atributo allowed_domains
 
-    start_urls = ["https://www.filmaffinity.com/es/ranking.php?rn=ranking_fa_movies"]   # Asignamos la url que contiene el ranking
 
-# Definimos la función de devolución de llamada que se llevará a cabo cuando la araña realice una solicitud a la url de inicio
-    def parse(self, response, **kwargs):
+# Definimos la función de para iniciar las peticiones
 
-        print("Inicio")
+    def start_requests(self):
+        
+        # Uso de un webdriver
 
-        movie_links = response.xpath("//div[@class='mc-title']/a/@href").extract()  # recorre todos los links de la página de los que se extraerán los items
+        driver = webdriver.Chrome()
+        
+        # Petición a la página que contiene el ranking
 
-        print("Longitud de lista de películas:", len(movie_links))
+        driver.get("https://www.filmaffinity.com/es/ranking.php?rn=ranking_fa_movies")
+        
+        # Para que la página contenga todos los items cargados, con el driver, se hará "click" en el botón de "Show-more".
+        # Cuando este ya no aparezca, indicará que se han cargado todos los items
 
-# Realizamos un SeleniumRequest a la URl de inicio escogiendo un user-agent random
-        for link in movie_links:
-            yield SeleniumRequest(url=link,
-                                  headers={"User-Agent": get_random_agent()},
-                                  dont_filter=True,
-                                  callback=self.parseitem
-                                  )
+        while True:
+            try:
+                driver.find_element("xpath", '//button[contains(text(), "Aceptar") and @id="qcCmpButtons"]/span').click()
+                show_more = driver.find_element("xpath", "//div[@class='show-more']")
+                driver.execute_script("document.querySelector('i.fas.fa-circle-notch.fa-spin').click()", show_more)
+                time.sleep(3)
+                
+            except:
+                # Una vez la página ha sido cargada, se extraen los datos que contiene
+                textr = driver.page_source
+                
+                s = Selector(text=textr)
+                
+                # Se extraen los links que llevan a las fichas de las películas
+
+                movie_links = response.xpath("//div[@class='mc-title']/a/@href").extract()  # recorre todos los links de la página de los que se extraerán los items
+
+                # Realizamos un SeleniumRequest a la URl de inicio escogiendo un user-agent aleatorio y esta, a su vez, llama a la función parseitem
+                for link in movie_links:
+                    yield SeleniumRequest(url=link,
+                                          headers={"User-Agent": get_random_agent()},
+                                          dont_filter=True,
+                                          callback=self.parseitem
+                                          )
 
 # Función que cree un objeto SpiderItemLoader que extraiga los datos de la página y los cargue en un objeto SpiderItem
     def parseitem(self, response):
