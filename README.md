@@ -31,12 +31,11 @@ Ejemplo: C:\Users\diaro\PycharmProjects\filmaffinity\spider> scrapy crawl filmsp
 
 
 # Enlaces 
-- **Repositorio de Github** -> [GitHub Page](https://pages.github.com/](https://github.com/aromeromontero/WebScrapping-PRA1-TCVD).
+- **[Repositorio de Github](https://pages.github.com/](https://github.com/aromeromontero/WebScrapping-PRA1-TCVD)** -> [GitHub Page].
 
-- **Repositorio de Zenodo** -> DOI: 10.5281/zenodo.7860540   
-  - [Enlace Zenodo](https://pages.github.com/](https://zenodo.org/record/7860540#.ZEbyknZBy3A).  
+- **[Repositorio de Zenodo](https://pages.github.com/](https://zenodo.org/record/7860540#.ZEbyknZBy3A)** -> DOI: 10.5281/zenodo.7860540   
                                                    
-- **Enlace al vídeo en Google Drive** -> [Enlace Google Drive](https://drive.google.com/file/d/165rhk6UH4k8Cvk4LtxUaya53JwsQaacW/view?usp=sharing) 
+- **[Enlace al vídeo Google Drive](https://drive.google.com/file/d/165rhk6UH4k8Cvk4LtxUaya53JwsQaacW/view?usp=sharing)** ->  
 
 
 
