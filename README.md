@@ -13,6 +13,6 @@ ENLACES:
 - Repositorio de Github -> https://github.com/aromeromontero/WebScrapping-PRA1-TCVD
 
 - Repositorio de Zenodo -> DOI: 10.5281/zenodo.7860540   
-                        -> LINK: https://zenodo.org/record/7860540#.ZEbyknZBy3A  
+                                                   -> LINK:  https://zenodo.org/record/7860540#.ZEbyknZBy3A    
 
 - Enlace al vídeo en Google Drive -> https://drive.google.com/file/d/165rhk6UH4k8Cvk4LtxUaya53JwsQaacW/view?usp=sharing
