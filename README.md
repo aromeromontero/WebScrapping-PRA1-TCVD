@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7860540.svg)](https://doi.org/10.5281/zenodo.7860540)
+
 #  ¿CUÁL VEMOS HOY? -PRA1 TCVD
 ###  Las 1000 mejores películas de la historia del cine, según Filmaffinity
 *Autores:* Diana Celine Pérez y Ariadna Romero
