@@ -71,8 +71,6 @@ class FilmspiderSpider(scrapy.Spider):
 
     start_urls = ["https://www.filmaffinity.com/es/ranking.php?rn=ranking_fa_movies"]   # Asignamos la url que contiene el ranking
 
-    # TODO: Scroll down: si no se puede, hay que eliminar el chrome
-
 # Definimos la función de devolución de llamada que se llevará a cabo cuando la araña realice una solicitud a la url de inicio
     def parse(self, response, **kwargs):
 
@@ -107,5 +105,3 @@ class FilmspiderSpider(scrapy.Spider):
 
         yield movie.load_item()
 
-# Para ejecutar la araña, hay que asegurarse de estar en el directorio de spider de
-# la terminal y poner scrapy crawl filmspider
