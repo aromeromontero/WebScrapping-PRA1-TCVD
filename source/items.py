@@ -1,7 +1,4 @@
-# Define here the models for your scraped items
-#
-# See documentation in:
-# https://docs.scrapy.org/en/latest/topics/items.html
+# Definición del item, a partir del cual se estructurarán los datos extraídos
 
 import scrapy
 
@@ -10,8 +7,7 @@ from itemloaders.processors import MapCompose
 
 
 class SpiderItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = Field()
+    # Definición de los campos para el item, en formato clave-valor
     title = scrapy.Field()
     original_title = scrapy.Field()
     release_year = scrapy.Field()
