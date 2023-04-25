@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7860540.svg)](https://doi.org/10.5281/zenodo.7860540)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7864412.svg)](https://doi.org/10.5281/zenodo.7864412)
 
 #  ¿CUÁL VEMOS HOY? -PRA1 TCVD
 ###  Las 1000 mejores películas de la historia del cine, según Filmaffinity
@@ -35,7 +35,7 @@ Ejemplo: C:\Users\diaro\PycharmProjects\filmaffinity\spider> scrapy crawl filmsp
 # Enlaces 
 - **[Repositorio de Github](https://github.com/aromeromontero/WebScrapping-PRA1-TCVD)**
 
-- **[Repositorio de Zenodo](https://zenodo.org/record/7860540#.ZEbyknZBy3A)** -> DOI: 10.5281/zenodo.7860540   
+- **[Repositorio de Zenodo](https://zenodo.org/record/7864412#.ZEgR0nZBy3A)** -> DOI: 10.5281/zenodo.7864412
                                                    
 - **[Enlace al vídeo Google Drive](https://drive.google.com/file/d/165rhk6UH4k8Cvk4LtxUaya53JwsQaacW/view?usp=sharing)**
 
