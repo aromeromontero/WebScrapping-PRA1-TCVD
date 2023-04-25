@@ -47,4 +47,3 @@ Ejemplo: C:\Users\diaro\PycharmProjects\filmaffinity\spider> scrapy crawl filmsp
   - **MEMORIA - PRA1 - TYCVD - DIANA Y ARIADNA.pdf** -> es el archivo donde se encuentran las respuestas a la PRA1.
   - **LICENSE**
 
-This site was built using 
