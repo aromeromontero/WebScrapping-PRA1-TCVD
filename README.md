@@ -1,10 +1,25 @@
 # ¿CUÁL VEMOS HOY? - PRA1 TCVD
 ### Las 1000 mejores películas de la historia del cine, según Filmaffinity 
-Por Diana Celine Pérez y Ariadna Romero
+*Autores:* Diana Celine Pérez y Ariadna Romero
+		
+# Librerías y versiones
+Scrapy~=2.8.0
+elementos ~ = 0.6.5
+artículoadaptador~=0.8.0
+cargadores de elementos ~ = 1.1.0
+w3lib~=2.1.1
+		
+# Ejecucion
+scrapy crawl filmspider.py
+		
+# Enlaces
+- Repositorio de Github -> https://github.com/aromeromontero/WebScrapping-PRA1-TCVD
+- Repositorio de Zenodo -> DOI: 10.5281/zenodo.7860540   
+                                                   -> LINK:  https://zenodo.org/record/7860540#.ZEbyknZBy3A    
+- Enlace al vídeo en Google Drive -> https://drive.google.com/file/d/165rhk6UH4k8Cvk4LtxUaya53JwsQaacW/view?usp=sharing
 
 
-
-En este repositorio encontrarás:
+ # ÍNDICE 
   - Carpeta FilmSpider -> en esta carpeta están los archivos necesarios para llevar a cabo el web scrapping.
   -  Carpeta dataset -> en esta carpeta está el archivo .csv resultado de la spider
   -  MEMORIA - PRA1 - TYCVD - DIANA Y ARIADNA.pdf -> es el archivo dónde se encuentran las respuestas a la PRA1.
@@ -13,10 +28,4 @@ En este repositorio encontrarás:
 
 
 
-ENLACES:
-- Repositorio de Github -> https://github.com/aromeromontero/WebScrapping-PRA1-TCVD
 
-- Repositorio de Zenodo -> DOI: 10.5281/zenodo.7860540   
-                                                   -> LINK:  https://zenodo.org/record/7860540#.ZEbyknZBy3A    
-
-- Enlace al vídeo en Google Drive -> https://drive.google.com/file/d/165rhk6UH4k8Cvk4LtxUaya53JwsQaacW/view?usp=sharing
