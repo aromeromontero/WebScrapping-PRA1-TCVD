@@ -31,7 +31,7 @@ Ejemplo: C:\Users\diaro\PycharmProjects\filmaffinity\spider> scrapy crawl filmsp
 
 
 # Enlaces 
-- **Repositorio de Github** -> [GitHub Page]([https://pages.github.com/](https://github.com/aromeromontero/WebScrapping-PRA1-TCVD).
+- **Repositorio de Github** -> [GitHub Page](https://pages.github.com/](https://github.com/aromeromontero/WebScrapping-PRA1-TCVD).
 
 - **Repositorio de Zenodo** -> DOI: 10.5281/zenodo.7860540   
   - [Enlace Zenodo](https://pages.github.com/](https://zenodo.org/record/7860540#.ZEbyknZBy3A).  
