@@ -47,7 +47,7 @@ FEEDS = {
     'data.csv': {'format': 'csv', 'overwrite': True}
 }
 
-# for Chrome Driver (PENDIENTE)
+# Configuraciones para usar el WebDriver, para Chrome
 
 from shutil import which
 
