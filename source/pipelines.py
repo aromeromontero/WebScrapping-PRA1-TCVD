@@ -1,17 +1,14 @@
-# Define your item pipelines here
-#
-# Don't forget to add your pipeline to the ITEM_PIPELINES setting
-# See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
+# Definición de pipelines, para manejar diferentes tipos de artículos con una única interfaz
 
-
-# useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 
 
 class SpiderPipeline:
     def process_item(self, item, spider):
         return item
+    
 
+# Definición de un pipeline para eliminar espacios en blanco que se presenten en los campos 'production' y 'original_title'
 class RemoveBlankSpacesPipeline:
 
     def process_item(self, item, spider):
